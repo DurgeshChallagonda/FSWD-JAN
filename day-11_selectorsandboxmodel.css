@@ -1,0 +1,67 @@
+/* element selector */
+/* h2{
+     color: bisque;
+    background-color: black;
+    border: solid 2px;
+}*/
+
+/* universal selector */
+/* *{
+    color: bisque;
+   background-color: black;
+   border: solid 2px;
+} */
+
+/* ID Selector */
+
+/* #idselect{
+    color: bisque;
+   background-color: black;
+   border: solid 2px;
+} */
+
+/* element selector list */
+
+/* h2, p{
+    color: bisque;
+   background-color: black;
+   border: chocolate solid 2px;
+} */
+
+/* Class Selector */
+
+/* h2, p{
+    color: bisque;
+   background-color: black;
+   border: chocolate solid 2px;
+   width: 50%;
+   height: 50%;
+} */
+
+
+/* units in css
+px, %, vh, vw, rem, em */
+
+
+/* decendant selector */
+
+/* li a{
+    color: bisque;
+   background-color: black;
+   border: chocolate solid 2px;
+   width: 50%;
+   height: 50%;
+} */
+
+/* Direct child selector */
+
+i < b{
+    color: bisque;
+   background-color: black;
+   border: chocolate solid 2px;
+   width: 50%;
+   height: 50%;
+}
+
+
+

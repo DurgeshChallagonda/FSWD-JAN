@@ -1,0 +1,57 @@
+/* positions in css */
+/* 1. static (by default) : wont collide with othere elements */
+
+/* div {
+    position: static;
+    color: white;
+    background-color: black;
+    border: 1px red solid;
+} */
+
+/* 2. relative : specifying the offset and it may get collided with other elements*/
+
+/* div {
+    position: relative;
+    color: white;
+    background-color: black;
+    border: 1px red solid;
+    top: 25px;
+    left: 10px;
+} */
+
+
+/* fixed : element will be fixed irrespective of scrolling*/
+
+/* div {
+    position: fixed;
+    color: white;
+    background-color: black;
+    border: 1px red solid;
+    top: 25px;
+    left: 10px;
+} */
+
+/* absolute : if absolute has no parent it considers body as the parent and body by default acts as relative in nature */
+/* #parent{
+    position: relative;
+    border: 2px dashed black;
+    height: 300px;
+    width: 300px;
+} */
+/* .position {
+    position: absolute;
+    color: white;
+    background-color: black;
+    border: 1px red solid;
+    /* top: 25px;
+    left: 10px; */
+
+ div {
+    position: sticky;
+    color: white;
+    background-color: black;
+    border: 1px red solid;
+    top: 25px;
+    left: 10px;
+}
+

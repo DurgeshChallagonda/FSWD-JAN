@@ -1,0 +1,72 @@
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+button:active{
+    border-color:  red;
+}
+
+button:focus{
+    background-color: blue;
+}
+
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+
+span{
+    padding: 8px;
+    margin: 8px;
+    background-color: yellow;
+}
+
+span:first-child{
+    background-color: red;
+}
+
+span:last-child{
+    background-color: red;
+}
+
+span:nth-child(3){
+    background-color: red;
+}
+/* even, odd */
+
+h1::before{
+    content: "Hello ";
+    color: black;
+}
+
+h1::after{
+    content: " goodmorning";
+    color: black;
+}
+
+.shape{
+    margin: 200px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shape::before{
+    content: " ";
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

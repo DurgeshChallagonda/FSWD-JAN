@@ -1,0 +1,56 @@
+/* h6{
+    background-color: black;
+    color: rgb(252, 254, 255);
+    padding: 0 0 0 50px;
+    border: 5px solid red;
+    margin: 50px 0 0 50px;
+    font-size: 30px;
+} */
+
+/* padding : internal to box
+margins : external to box */
+
+/* display in css */
+/* >> block
+   >>inline
+   >>inline-block */
+
+
+   /* block */
+/* .displayincss1{
+    background-color: rgb(238, 255, 0);
+    color: rgb(252, 254, 255);
+    /* border: 5px solid rgb(0, 0, 0); */
+    display: block;
+    height: 50px;
+    /* width: 50px; */
+} */
+
+/* .displayincss2{
+    background-color: black;
+    color: rgb(252, 254, 255);
+    /* border: 5px solid red; */
+    display: block;
+    height: 50px;
+    /* width: 50px; */
+} */
+
+
+/* inline */
+.displayincss1{
+    background-color: rgb(238, 255, 0);
+    color: rgb(252, 254, 255);
+    border: 5px solid rgb(0, 0, 0);
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
+.displayincss2{
+    background-color: black;
+    color: rgb(252, 254, 255);
+    border: 5px solid red;
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
